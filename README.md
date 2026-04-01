@@ -33,3 +33,32 @@ This is a Flutter application that calculates Body Mass Index (BMI) using the us
 
 Mr ozy
 Computer Engieering Student
+
+## Project Description
+
+### Research Problem
+
+This application solves the problem of quickly calculating Body Mass Index (BMI) to help users understand their health status.
+
+### Motivation
+
+Maintaining a healthy BMI is important for overall health. This app provides a simple and fast way for users to check their BMI.
+
+### Control Flow
+
+1. User opens the app (Welcome Screen)
+2. User enters height and weight (Input Screen)
+3. App calculates BMI
+4. Result is displayed with advice (Result Screen)
+
+### Implementation Strategy
+
+The app is built using Flutter and consists of multiple screens:
+
+- main.dart → Entry point
+- welcome_screen.dart → First screen
+- input_screen.dart → User input
+- result_screen.dart → Displays BMI result
+
+BMI is calculated using the formula:
+BMI = weight / (height × height)
